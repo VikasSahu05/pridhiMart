@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pridhiMart/static/css/main.45fd287a.css",
+    "main.js": "/pridhiMart/static/js/main.d2418a07.js",
+    "index.html": "/pridhiMart/index.html",
+    "main.45fd287a.css.map": "/pridhiMart/static/css/main.45fd287a.css.map",
+    "main.d2418a07.js.map": "/pridhiMart/static/js/main.d2418a07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45fd287a.css",
+    "static/js/main.d2418a07.js"
+  ]
+}
