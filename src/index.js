@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <>
     <BrowserRouter>
-    <div className='container'>
+    <div className='container-fluid'>
       <App/>
     </div>
  </BrowserRouter>

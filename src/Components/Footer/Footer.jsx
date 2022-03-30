@@ -4,8 +4,9 @@ import { FaFacebookF ,FaInstagram ,FaTwitter} from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='footer'>
-    <hr/>
-        <div className='row'>
+       <div className='container'>
+       <hr/>
+       <div className='row'>
             <div className='col-12 col-lg-3'>
                 <h4><strong>CUSTOMER SERVICE</strong></h4>
                 <p className="footerText text-muted">Help & Contact</p>
@@ -40,8 +41,9 @@ const Footer = () => {
        <p className="footerText text-muted">© 2021 Qode Interactive, All Rights Reserved</p>
        <p className="footerText text-muted">Follow Us <FaFacebookF/> <FaInstagram/> <FaTwitter/></p>
        </div>
+       </div>
     </div>
   )
 }
 
-export default Footer
+export default Footer;

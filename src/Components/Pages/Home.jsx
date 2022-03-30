@@ -29,8 +29,8 @@ const Home = () => {
   }
 
   return (
-    <div>
-      <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+    <div className='GallarySection'>
+      <div id="carouselExampleSlidesOnly" className="container carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <div className='row '>
@@ -45,8 +45,8 @@ const Home = () => {
                    in loose packing</p>
               </div>
             </div>
-            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center'>
-              <img src="./images/image1.jpeg" className="d-block w-75" alt="..."/>
+            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
+              <img src="./img/image1.jpeg" className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>
@@ -59,8 +59,8 @@ const Home = () => {
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
               </div>
             </div>
-            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center'>
-              <img src="./images/image2.jpeg" className="d-block w-75" alt="..."/>
+            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
+              <img src="./img/image2.jpeg" className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>
@@ -74,8 +74,8 @@ const Home = () => {
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
               </div>
             </div>
-            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center'>
-              <img src="./images/image3.jpeg" className="d-block w-75" alt="..."/>
+            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
+              <img src="./img/image3.jpeg" className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>
@@ -87,8 +87,8 @@ const Home = () => {
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
               </div>
             </div>
-            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center'>
-              <img src="./images/image4.jpeg" className="d-block w-75" alt="..."/>
+            <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
+              <img src="./img/image4.jpeg" className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>
@@ -96,13 +96,15 @@ const Home = () => {
     </div>
     
       {/* menu section start */}
-        <CategoryMenu filterProducts={filterProducts} allcatg={allcatg}/>
+        <div className='container'>
+          <CategoryMenu filterProducts={filterProducts} allcatg={allcatg}/>
+        </div>
       {/* menu section end */}
 
 
       {/* product image section start */}
-
-      <div className="categoryProduct mt-5">
+      
+      <div className="container categoryProduct mt-5">
           <div className='row my-5'>
 
           <ProductsGallery products={products}/>

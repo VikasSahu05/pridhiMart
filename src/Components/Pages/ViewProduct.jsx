@@ -7,13 +7,13 @@ const ViewProduct = () => {
             <div className='col-12 col-sm-6'>
                 <div className='products'>
                     <div className='products-small-img'>
-                        <img src="/images/image1.jpeg" alt="" />
-                        <img src="/images/image1.jpeg" alt="" />
-                        <img src="/images/image2.jpeg" alt="" />
-                        <img src="/images/image3.jpeg" alt="" />
+                        <img src="./img/image1.jpeg" alt="" />
+                        <img src="./img/image1.jpeg" alt="" />
+                        <img src="./img/image2.jpeg" alt="" />
+                        <img src="./img/image3.jpeg" alt="" />
                     </div>
                     <div className='img-container'> 
-                        <img src="/images/image3.jpeg" alt="" />
+                        <img src="./img/image3.jpeg" alt="" />
                     </div>
                 </div>
             </div>
