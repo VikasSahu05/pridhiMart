@@ -1,7 +1,12 @@
+import image1 from '../images/image1.jpeg';
+import image2 from '../images/image2.jpeg';
+import image3 from '../images/image3.jpeg';
+import image4 from '../images/image4.jpeg';
+
 export const pData = [
     {
         id:1,
-        image:"./images/image1.jpeg",
+        image:image1,
         name:'Bedsheet1',
         category:'bedsheet',
         price:'100',
@@ -9,7 +14,7 @@ export const pData = [
     },
     {
         id:2,
-        image:"./images/image2.jpeg",
+        image:image2,
         name:'Doremate',
         category:'doremate',
         price:'150',
@@ -17,7 +22,7 @@ export const pData = [
     },
     {
         id:3,
-        image:"./images/image3.jpeg",
+        image:image3,
         name:'Curtoon',
         category:'curtoon',
         price:'100',
@@ -25,7 +30,7 @@ export const pData = [
     },
     {
         id:4,
-        image:"./images/image4.jpeg",
+        image:image4,
         name:'Pillow3',
         category:'pillow',
         price:'450',
@@ -33,7 +38,7 @@ export const pData = [
     },
     {
         id:5,
-        image:"./images/image3.jpeg",
+        image:image3,
         name:'Curtoon',
         category:'curtoon',
         price:'100',
@@ -41,7 +46,7 @@ export const pData = [
     },
     {
         id:6,
-        image:"./images/image3.jpeg",
+        image:image3,
         name:'Pillow2',
         category:'pillow',
         price:'100',
@@ -49,7 +54,7 @@ export const pData = [
     },
     {
         id:7,
-        image:"./images/image3.jpeg",
+        image:image3,
         name:'Curtoon2',
         category:'curtoon',
         price:'190',
@@ -57,7 +62,7 @@ export const pData = [
     },
     {
         id:8,
-        image:"./images/image3.jpeg",
+        image:image3,
         name:'Bedsheet2',
         category:'bedsheet',
         price:'250',
