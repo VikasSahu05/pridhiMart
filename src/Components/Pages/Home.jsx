@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import CategoryMenu from './CategoryMenu';
 import { pData } from './productData';
 import ProductsGallery from './ProductsGallery';
+import image1 from '../images/image1.jpeg';
+import image2 from '../images/image2.jpeg';
+import image3 from '../images/image3.jpeg';
+import image4 from '../images/image4.jpeg';
+
+
 
 const allCategory = [...new Set(pData.map((currentCatg)=>{
   return currentCatg.category;
@@ -13,6 +19,7 @@ const Home = () => {
   const [products,setProducts] =useState(pData);
   const [allcatg,setAllCatg] =useState(allCategory);
   
+  // setAllCatg(allCategory)
   console.log(allCategory);
 
   const filterProducts = (categProduct) =>{
@@ -30,10 +37,10 @@ const Home = () => {
 
   return (
     <div className='GallarySection'>
-      <div id="carouselExampleSlidesOnly" className="container carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleSlidesOnly" className=" pt-5 container carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <div className='row '>
+          <div className='row'>
           <div className='col-12 col-sm-6 d-flex justify-content-center align-items-center'>
               <div className='d-flex flex-column'>
                 <h2>Single bedsheet with pillow covers</h2>
@@ -46,7 +53,7 @@ const Home = () => {
               </div>
             </div>
             <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
-              <img src="./img/image1.jpeg" className="d-block w-75" alt="..."/>
+              <img src={image1} className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>
@@ -60,7 +67,7 @@ const Home = () => {
               </div>
             </div>
             <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
-              <img src="./img/image2.jpeg" className="d-block w-75" alt="..."/>
+              <img src={image2} className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>
@@ -75,7 +82,7 @@ const Home = () => {
               </div>
             </div>
             <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
-              <img src="./img/image3.jpeg" className="d-block w-75" alt="..."/>
+              <img src={image3} className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>
@@ -88,7 +95,7 @@ const Home = () => {
               </div>
             </div>
             <div className='col-12 col-sm-6 d-flex justify-content-lg-end justify-content-center py-5'>
-              <img src="./img/image4.jpeg" className="d-block w-75" alt="..."/>
+              <img src={image4} className="d-block w-75" alt="..."/>
             </div>
           </div>
         </div>

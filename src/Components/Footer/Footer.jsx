@@ -3,7 +3,7 @@ import { FaFacebookF ,FaInstagram ,FaTwitter} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer text-center'>
        <div className='container'>
        <hr/>
        <div className='row'>
@@ -38,8 +38,8 @@ const Footer = () => {
         </div>
         <hr/>
        <div className='d-flex flex-row justify-content-lg-between justify-content-center align-items-center p-2'>
-       <p className="footerText text-muted">© 2021 Qode Interactive, All Rights Reserved</p>
-       <p className="footerText text-muted">Follow Us <FaFacebookF/> <FaInstagram/> <FaTwitter/></p>
+       <p className="text-center footerText text-muted">© 2021 Qode Interactive, All Rights Reserved</p>
+       <p className="text-center footerText text-muted">Follow Us <FaFacebookF/> <FaInstagram/> <FaTwitter/></p>
        </div>
        </div>
     </div>
